@@ -19,5 +19,6 @@ CREATE TABLE ingredients (
 
 CREATE TABLE tools (
 	id bigint PRIMARY KEY,
+	text name,
 	photo text
 );
